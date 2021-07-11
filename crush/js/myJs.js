@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "Em Yêu Của Anh!",
+  text2: "Trong Thời Gian Này Cũng Không Biết Làm Thế Nào Để Em Và Anh Vơi Đi Nổi Nhớ Nên Anh Có Một Cái Này Nho Nhỏ Mong Em Vui Hơn, Yêu Đời Hơn, Nghĩ Thoáng Hơn Và thêm Nhiều Động Lực Hơn. Em Nhé.",
+  text3: "Cùng Nhau Cố Gắn Qua Đợt Dịch Này Em nhá ._.",
+  text4: "Yêu Em Nhất Quả Đất hihi :v",
+  text5: "Em Chán, Không Nghe Anh Đâu???",
+  text6: "Em Yêu Của Anh Ngoan Mà Yêu Yêu<3",
+  text7: "Có Gì Muốn Nói Với Anh Không ? :vvvv",
+  text8: "Gửi Anh Nhá <3",
+  text9: "",
+  text10: "Anh Yêu Em ^^ Yêu Em 300.000",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+    "Liên Hệ Facebook Anh Để Nói Nhiều Hơn Em Nhá. AHIHI Yêu EM <3",
   text12: "Okii lunn <3",
 };
 
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Em Cũng Yêu Anh Nhiều <333'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "http://fb.com/NTTuyen04/";
           },
         });
       }
